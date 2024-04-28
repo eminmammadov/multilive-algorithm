@@ -1,2 +1,36 @@
 # voice-translate-youtube-algorithm
 Multi-language voice translation algorithm for Youtube
+
+<pre>
+  Title: Multilive
+  Definition: Multilingual live voice translation algorithm for Youtube.
+  Author: Emin Mammadov <eminmammadovcom@gmail.com>
+  Status: Draft
+  Type: Standards Tracking
+  Created: 2021-12-16
+  Update: 2024-04-28
+  License: CC0 1.0 Universal
+</pre>
+
+==Abstract==
+
+In Python opcode, the multilingual live voice translation algorithm for YouTube provides Multilive, which can automatically perform live translation of YouTube videos in multiple languages.  
+
+The algorithm works like this: First, it retrieves the audio streams of live video broadcasts using YouTube APIs. It then converts the audio into text using APIs such as speech recognition to recognize the voice. Finally, the "Multilive" algorithm, converts the target language text into audio live.
+
+== Copyright ==
+This document is licensed under the CC0 1.0 Universal license.
+
+==Specification==
+
+When evaluating the ''<nowiki>"Multilive"</nowiki>'' instruction:
+# Use Youtube API to watch video audio streams.
+# Convert audio stream to text with Google Cloud Speech-to-Text API.
+# Translate text into target language with Google Translate API.
+# Convert translated target language text to audio with "Multilive".
+
+''<nowiki>YouTube API'sini kullanarak canlı video yayınlarının ses akışlarını alıp, sesi metne dönüştürüp, çevirip, ses haline getirerek, canlı yayının akışını yönetiriz.</nowiki>''
+
+Multilive, a multilingual live audio translation algorithm for YouTube in Python, retrieves audio streams of live video broadcasts using YouTube APIs. It then converts the audio to text using APIs such as speech recognition to recognize the speech. Finally, the ''<nowiki>"Multilive"</nowiki>'' algorithm is used to convert the text in the target language into live audio. In this way, YouTube videos are translated live into various languages.
+
+==More is being written==
