@@ -1,6 +1,3 @@
-# voice-translate-youtube-algorithm
-Multi-language voice translation algorithm for Youtube
-
 <pre>
   Title: Multilive
   Definition: Multilingual live voice translation algorithm for Youtube.
