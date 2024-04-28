@@ -24,12 +24,12 @@ This document is licensed under the CC0 1.0 Universal license.
 ==Specification==
 
 When evaluating the ''<nowiki>"Multilive"</nowiki>'' instruction:
-# Use Youtube API to watch video audio streams.
-# Convert audio stream to text with Google Cloud Speech-to-Text API.
-# Translate text into target language with Google Translate API.
-# Convert translated target language text to audio with "Multilive".
+### Use Youtube API to watch video audio streams.
+### Convert audio stream to text with Google Cloud Speech-to-Text API.
+### Translate text into target language with Google Translate API.
+### Convert translated target language text to audio with "Multilive".
 
-''<nowiki>YouTube API'sini kullanarak canlı video yayınlarının ses akışlarını alıp, sesi metne dönüştürüp, çevirip, ses haline getirerek, canlı yayının akışını yönetiriz.</nowiki>''
+''<nowiki>Using the YouTube API, we manage the flow of the live broadcast by receiving the audio streams of live video broadcasts, converting the audio into text, translating it and converting it into audio.</nowiki>''
 
 Multilive, a multilingual live audio translation algorithm for YouTube in Python, retrieves audio streams of live video broadcasts using YouTube APIs. It then converts the audio to text using APIs such as speech recognition to recognize the speech. Finally, the ''<nowiki>"Multilive"</nowiki>'' algorithm is used to convert the text in the target language into live audio. In this way, YouTube videos are translated live into various languages.
 
