@@ -24,10 +24,10 @@ This document is licensed under the CC0 1.0 Universal license.
 ==Specification==
 
 When evaluating the ''<nowiki>"Multilive"</nowiki>'' instruction:
-### Use Youtube API to watch video audio streams.
-### Convert audio stream to text with Google Cloud Speech-to-Text API.
-### Translate text into target language with Google Translate API.
-### Convert translated target language text to audio with "Multilive".
+# Use Youtube API to watch video audio streams.
+# Convert audio stream to text with Google Cloud Speech-to-Text API.
+# Translate text into target language with Google Translate API.
+# Convert translated target language text to audio with "Multilive".
 
 ''<nowiki>Using the YouTube API, we manage the flow of the live broadcast by receiving the audio streams of live video broadcasts, converting the audio into text, translating it and converting it into audio.</nowiki>''
 
