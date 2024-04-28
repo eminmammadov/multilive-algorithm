@@ -30,4 +30,14 @@ When evaluating the ''<nowiki>"Multilive"</nowiki>'' instruction:
 
 Multilive, a multilingual live audio translation algorithm for YouTube in Python, retrieves audio streams of live video broadcasts using YouTube APIs. It then converts the audio to text using APIs such as speech recognition to recognize the speech. Finally, the ''<nowiki>"Multilive"</nowiki>'' algorithm is used to convert the text in the target language into live audio. In this way, YouTube videos are translated live into various languages.
 
-==More is being written==
+==Motivation==
+
+==Rationale==
+
+==Reference implementation==
+
+==References==
+
+==Acknowledgements==
+
+''<nowiki>More is being written</nowiki>''
